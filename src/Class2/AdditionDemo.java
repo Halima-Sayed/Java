@@ -12,6 +12,5 @@ public class AdditionDemo {
             double doubleNumber2=0.5;
             double doubleSum=doubleNumber1+doubleNumber2;
             System.out.println(doubleSum);
-
         }
 }

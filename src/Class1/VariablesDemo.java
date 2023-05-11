@@ -17,5 +17,4 @@ public class VariablesDemo {
         System.out.println(name);
 
     }
-
 }

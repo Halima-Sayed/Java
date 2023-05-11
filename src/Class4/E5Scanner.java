@@ -18,9 +18,5 @@ public class E5Scanner {
         //Calling the next method to take a String from  the user
         String name=scan.next();
         System.out.println("You are amazing "+name);
-
-
-
-
     }
 }
