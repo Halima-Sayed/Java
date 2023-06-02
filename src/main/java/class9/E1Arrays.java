@@ -24,6 +24,5 @@ public class E1Arrays {
         // numbers start from 0
         System.out.println(names[0]);
         System.out.println(names[2]);
-
     }
 }

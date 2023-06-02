@@ -29,7 +29,6 @@ public class E4SwitchStatement {
 
                 default:
                 System.out.println("wrong day number");
-
         }
     }
 }

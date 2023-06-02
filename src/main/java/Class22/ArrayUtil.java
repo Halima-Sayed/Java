@@ -1,3 +1,5 @@
+package Class22;
+
 public interface ArrayUtil {
     //Search the array for the number if found return true
     public boolean searchArr(int [] array,int number);
@@ -46,5 +48,3 @@ class Main22 implements ArrayUtil{
     }
 
 }
-
-
