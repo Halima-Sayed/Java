@@ -1,5 +1,7 @@
 package Class25;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
@@ -22,6 +24,8 @@ public class E9Maps {
         //if things get complicated we can use var.
         Collection<Double> value=makeup.values();
         System.out.println(value);
+
+        XSSFWorkbook xssfWorkbook;
 
     }
 }
