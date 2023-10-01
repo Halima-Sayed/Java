@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class E1ConfigReader {
+    /*
+    Get the location of the file
+    Either navigate to that file or bring that file into the memory
+     */
     public static void main(String[] args) throws IOException {
        // System.getProperty("user.dir");-> gives you the path till your project
         String path=System.getProperty("user.dir")+"\\Files\\Config.properties";

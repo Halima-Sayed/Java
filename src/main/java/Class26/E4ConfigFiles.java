@@ -8,6 +8,7 @@ import java.util.Properties;
 
 public class E4ConfigFiles {
     public static void main(String[] args) throws IOException {
+        //all this code to read the data from a configuration file
         //this tells you where your project is stored the path
         System.out.println(System.getProperty("user.dir"));
        // String path=System.getProperty("user.dir")+"\\"+"Files\\Config.properties";
@@ -22,6 +23,5 @@ public class E4ConfigFiles {
         prop.load(fis);
         //get the userName
         System.out.println(prop.getProperty("userName"));
-
     }
 }

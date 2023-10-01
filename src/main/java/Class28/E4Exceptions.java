@@ -1,5 +1,6 @@
 package Class28;
 
+
 public class E4Exceptions {
     public static void main(String[] args) {
         //all the errors we get before we click on the play button that is called a compile time error also called as syntax errors
@@ -15,11 +16,22 @@ public class E4Exceptions {
       //  int[] arr=new int[-5]; //<- cannot create an array of -5
         System.out.println("line 5");
        try{
-           "name".charAt(5);
-       }catch (Exception e){
+        //"name".charAt(10);
+          // System.out.println(10/0);
+           String name=null;
+           name.length();
+         //int[] arr=new int[-5];
+           //inside the parenthesis  we specify the type of error that occurs
+           //if we dont specify the error type then catch blocks won't work
+       }catch (StringIndexOutOfBoundsException e){ //if the issue is index out of bound throw this exception
            System.out.println("Plan b");
+       }catch (NegativeArraySizeException e){// if its negative array size then throw this exception
+           System.out.println("Plan c");
+       }catch (ArithmeticException e){
+           System.out.println("Plan d");
+       }catch (Exception e){ //exception is the parent of NullPointerException even RuntimeException will handle it GodFather class is throwable two main child class error and exception
+           System.out.println("Plan e");
        }
         System.out.println("line 6");
-
     }
 }
